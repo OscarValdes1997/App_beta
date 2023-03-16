@@ -16,6 +16,7 @@
 		3D3EA58F29C22C0100C88A76 /* App_betaTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3D3EA58E29C22C0100C88A76 /* App_betaTests.swift */; };
 		3D3EA59929C22C0100C88A76 /* App_betaUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3D3EA59829C22C0100C88A76 /* App_betaUITests.swift */; };
 		3D3EA59B29C22C0100C88A76 /* App_betaUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3D3EA59A29C22C0100C88A76 /* App_betaUITestsLaunchTests.swift */; };
+		F02CEB0029C3B11F00CFFE41 /* Galeria_2_ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F02CEAFF29C3B11F00CFFE41 /* Galeria_2_ViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -49,6 +50,7 @@
 		3D3EA59429C22C0100C88A76 /* App_betaUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = App_betaUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		3D3EA59829C22C0100C88A76 /* App_betaUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = App_betaUITests.swift; sourceTree = "<group>"; };
 		3D3EA59A29C22C0100C88A76 /* App_betaUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = App_betaUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		F02CEAFF29C3B11F00CFFE41 /* Galeria_2_ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Galeria_2_ViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -103,6 +105,7 @@
 				3D3EA57929C22BFD00C88A76 /* SceneDelegate.swift */,
 				3D3EA57B29C22BFD00C88A76 /* ViewController.swift */,
 				3D3EA57D29C22BFD00C88A76 /* Main.storyboard */,
+				F02CEAFF29C3B11F00CFFE41 /* Galeria_2_ViewController.swift */,
 				3D3EA58029C22C0000C88A76 /* Assets.xcassets */,
 				3D3EA58229C22C0000C88A76 /* LaunchScreen.storyboard */,
 				3D3EA58529C22C0000C88A76 /* Info.plist */,
@@ -259,6 +262,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				3D3EA57C29C22BFD00C88A76 /* ViewController.swift in Sources */,
+				F02CEB0029C3B11F00CFFE41 /* Galeria_2_ViewController.swift in Sources */,
 				3D3EA57829C22BFD00C88A76 /* AppDelegate.swift in Sources */,
 				3D3EA57A29C22BFD00C88A76 /* SceneDelegate.swift in Sources */,
 			);

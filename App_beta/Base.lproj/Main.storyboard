@@ -72,6 +72,28 @@
                                 <rect key="frame" x="0.0" y="0.0" width="393" height="852"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                             </imageView>
+                            <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" fixedFrame="YES" textAlignment="justified" translatesAutoresizingMaskIntoConstraints="NO" id="7jX-Ll-D6Y">
+                                <rect key="frame" x="154" y="140" width="228" height="136"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <color key="backgroundColor" systemColor="labelColor"/>
+                                <string key="text">Esta teoria engloba el trabajo del cientifico Demian Lorents, el cual descubrio que existian diversas realidades exisitiendo simultaneamente con la unica diferencia es que sincronizaban en frecuencias distintas. </string>
+                                <color key="textColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <fontDescription key="fontDescription" type="boldSystem" pointSize="14"/>
+                                <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
+                            </textView>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="demian1-removebg-preview" translatesAutoresizingMaskIntoConstraints="NO" id="dgH-Dx-tsr">
+                                <rect key="frame" x="11" y="133" width="135" height="210"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            </imageView>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="9fl-eX-tOR">
+                                <rect key="frame" x="280" y="756" width="93" height="35"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <state key="normal" title="Button"/>
+                                <buttonConfiguration key="configuration" style="gray" title="Continua"/>
+                                <connections>
+                                    <segue destination="Nuh-pj-nm9" kind="show" id="Nqr-fF-Hv1"/>
+                                </connections>
+                            </button>
                         </subviews>
                         <viewLayoutGuide key="safeArea" id="FYc-7n-mKL"/>
                         <color key="backgroundColor" systemColor="systemBackgroundColor"/>
@@ -81,6 +103,42 @@
                 <placeholder placeholderIdentifier="IBFirstResponder" id="YEo-9R-8gB" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
             <point key="canvasLocation" x="3408.3969465648852" y="33.802816901408455"/>
+        </scene>
+        <!--Galeria2 View Controller-->
+        <scene sceneID="Mbs-ag-XPy">
+            <objects>
+                <viewController id="Nuh-pj-nm9" customClass="Galeria_2_ViewController" customModule="App_beta" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="ygO-wj-o80">
+                        <rect key="frame" x="0.0" y="0.0" width="393" height="852"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="fondo" translatesAutoresizingMaskIntoConstraints="NO" id="N4O-I1-ewW">
+                                <rect key="frame" x="0.0" y="0.0" width="393" height="852"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            </imageView>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="mago" translatesAutoresizingMaskIntoConstraints="NO" id="S2Z-eK-fgE">
+                                <rect key="frame" x="23" y="122" width="346" height="171"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            </imageView>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="rbN-1O-OwT">
+                                <rect key="frame" x="159" y="309" width="75" height="35"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <color key="backgroundColor" red="0.47154566650000002" green="0.059259316620000002" blue="0.041935208920000001" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                                <state key="normal" title="Button"/>
+                                <buttonConfiguration key="configuration" style="filled" title="Button">
+                                    <color key="baseForegroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                    <color key="baseBackgroundColor" red="0.7607843876" green="0.1686274707" blue="0.14509806040000001" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                                </buttonConfiguration>
+                            </button>
+                        </subviews>
+                        <viewLayoutGuide key="safeArea" id="0Lc-EE-qS7"/>
+                        <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                    </view>
+                    <navigationItem key="navigationItem" id="bmD-Vp-JFD"/>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="O8p-vr-GqQ" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="4168.7022900763359" y="33.802816901408455"/>
         </scene>
         <!--Navigation Controller-->
         <scene sceneID="JeO-u1-uk4">
@@ -101,10 +159,15 @@
             <point key="canvasLocation" x="1748.854961832061" y="22.535211267605636"/>
         </scene>
     </scenes>
-    <color key="tintColor" red="0.6309197809" green="0.14770029740000001" blue="0.1363543549" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+    <color key="tintColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
     <resources>
         <image name="deimos_1" width="1080" height="1080"/>
+        <image name="demian1-removebg-preview" width="504" height="495"/>
         <image name="fondo" width="1080" height="1920"/>
+        <image name="mago" width="1382" height="693"/>
+        <systemColor name="labelColor">
+            <color red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+        </systemColor>
         <systemColor name="systemBackgroundColor">
             <color white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
         </systemColor>
