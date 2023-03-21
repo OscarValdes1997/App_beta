@@ -14,6 +14,8 @@ class Galeria_2_ViewController: UIViewController {
     let listaImagenes = ["demonio","mago","relicario"]
     var elementosIndice = 0
     
+    
+    
     override func viewDidLoad() {
         actualizarElementos()
         super.viewDidLoad()
