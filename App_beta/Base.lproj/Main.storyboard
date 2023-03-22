@@ -21,25 +21,25 @@
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                             </imageView>
                             <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="deimos_1" translatesAutoresizingMaskIntoConstraints="NO" id="NUd-Rf-QOL">
-                                <rect key="frame" x="44" y="85" width="304" height="302"/>
+                                <rect key="frame" x="75" y="90" width="254" height="251"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                             </imageView>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="DAR CLIC BAJO" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="7Jk-YN-FXQ">
-                                <rect key="frame" x="95" y="395" width="203" height="54"/>
+                                <rect key="frame" x="101" y="349" width="203" height="54"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <fontDescription key="fontDescription" type="system" weight="semibold" pointSize="25"/>
                                 <color key="textColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                 <nil key="highlightedColor"/>
                             </label>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="SU PROPIO RIESGO" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="OpC-xJ-bWM">
-                                <rect key="frame" x="75" y="418" width="242" height="68"/>
+                                <rect key="frame" x="81" y="365" width="242" height="68"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <fontDescription key="fontDescription" type="system" weight="semibold" pointSize="25"/>
                                 <color key="textColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                 <nil key="highlightedColor"/>
                             </label>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="x4K-ip-JoP">
-                                <rect key="frame" x="130" y="503" width="132" height="35"/>
+                                <rect key="frame" x="130" y="427" width="132" height="35"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <color key="tintColor" red="0.63091978092783507" green="0.14770029744329435" blue="0.13635435491597095" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
                                 <state key="normal" title="Button"/>
@@ -50,6 +50,10 @@
                                     <segue destination="GAg-KZ-OiQ" kind="show" id="raF-KX-niG"/>
                                 </connections>
                             </button>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="dios5" translatesAutoresizingMaskIntoConstraints="NO" id="j0Q-pI-3oQ">
+                                <rect key="frame" x="56" y="476" width="280" height="333"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            </imageView>
                         </subviews>
                         <viewLayoutGuide key="safeArea" id="bOO-CW-Yd2"/>
                         <color key="backgroundColor" systemColor="systemBackgroundColor"/>
@@ -80,7 +84,7 @@
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <color key="backgroundColor" systemColor="labelColor"/>
                                 <string key="text">Esta teoria engloba el trabajo del cientifico Demian Lorents, el cual descubrio que existian diversas realidades exisitiendo simultaneamente con la unica diferencia es que sincronizaban en frecuencias distintas. </string>
-                                <color key="textColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <color key="textColor" red="0.72097712759999999" green="0.15790727730000001" blue="0.1371834576" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
                                 <fontDescription key="fontDescription" type="boldSystem" pointSize="14"/>
                                 <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
                             </textView>
@@ -94,9 +98,26 @@
                                 <state key="normal" title="Button"/>
                                 <buttonConfiguration key="configuration" style="gray" title="Continua"/>
                                 <connections>
-                                    <segue destination="Nuh-pj-nm9" kind="show" id="Nqr-fF-Hv1"/>
+                                    <segue destination="Nuh-pj-nm9" kind="show" id="ycq-MI-8vQ"/>
                                 </connections>
                             </button>
+                            <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" fixedFrame="YES" textAlignment="natural" translatesAutoresizingMaskIntoConstraints="NO" id="aQ4-mp-9oh">
+                                <rect key="frame" x="33" y="487" width="327" height="90"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <color key="backgroundColor" systemColor="labelColor"/>
+                                <string key="text">Al ser correcta su teoria Demian interactuo con esta nueva Realidad, en la cual le esperaban acontesimientos que harian que su vida cambiara por la eternidad</string>
+                                <color key="textColor" red="0.76016247270000004" green="0.16972076890000001" blue="0.14502155780000001" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                                <fontDescription key="fontDescription" type="boldSystem" pointSize="14"/>
+                                <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
+                            </textView>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="cientifico3" translatesAutoresizingMaskIntoConstraints="NO" id="4wE-WH-sE6">
+                                <rect key="frame" x="115" y="340" width="258" height="139"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            </imageView>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="portal" translatesAutoresizingMaskIntoConstraints="NO" id="NLO-Ot-8YQ">
+                                <rect key="frame" x="46" y="570" width="300" height="170"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            </imageView>
                         </subviews>
                         <viewLayoutGuide key="safeArea" id="FYc-7n-mKL"/>
                         <color key="backgroundColor" systemColor="systemBackgroundColor"/>
@@ -115,16 +136,12 @@
                         <rect key="frame" x="0.0" y="0.0" width="393" height="852"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="fondo" translatesAutoresizingMaskIntoConstraints="NO" id="N4O-I1-ewW">
-                                <rect key="frame" x="0.0" y="0.0" width="393" height="852"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                            </imageView>
                             <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="mago" translatesAutoresizingMaskIntoConstraints="NO" id="S2Z-eK-fgE">
-                                <rect key="frame" x="23" y="122" width="346" height="171"/>
+                                <rect key="frame" x="23" y="175" width="346" height="171"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                             </imageView>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="rbN-1O-OwT">
-                                <rect key="frame" x="159" y="309" width="75" height="35"/>
+                                <rect key="frame" x="159" y="364" width="75" height="35"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <color key="backgroundColor" red="0.47154566650000002" green="0.059259316620000002" blue="0.041935208920000001" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
                                 <state key="normal" title="Button"/>
@@ -136,18 +153,45 @@
                                     <action selector="siguietne:" destination="Nuh-pj-nm9" eventType="touchUpInside" id="w17-LC-qrL"/>
                                 </connections>
                             </button>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="relicario_fondo" translatesAutoresizingMaskIntoConstraints="NO" id="8Bb-8i-w5b">
+                                <rect key="frame" x="50" y="407" width="293" height="245"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            </imageView>
+                            <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" fixedFrame="YES" textAlignment="natural" translatesAutoresizingMaskIntoConstraints="NO" id="mjF-Lv-ikp">
+                                <rect key="frame" x="23" y="646" width="346" height="91"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <color key="backgroundColor" systemColor="labelColor"/>
+                                <string key="text">Dato curioso:  Los relicarios en diferentes culrturas eran utilizados para guardas fracmentos sagrados, demonios, sustancias sobrenaturales.</string>
+                                <color key="textColor" red="0.76016247270000004" green="0.16972076890000001" blue="0.14502155780000001" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                                <fontDescription key="fontDescription" type="boldSystem" pointSize="14"/>
+                                <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
+                            </textView>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="DEIMOS" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="3sH-I2-kE9">
+                                <rect key="frame" x="137" y="83" width="118" height="37"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <fontDescription key="fontDescription" type="system" weight="semibold" pointSize="31"/>
+                                <color key="textColor" red="0.66244482989999998" green="0.1348578655104693" blue="0.11863501627246528" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="El demonio" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="YWo-Bn-W3y">
+                                <rect key="frame" x="154" y="114" width="85" height="21"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <color key="textColor" red="0.66244482989999998" green="0.13485786550000001" blue="0.11863501630000001" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                                <nil key="highlightedColor"/>
+                            </label>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="cK6-XF-Ie7">
-                                <rect key="frame" x="302" y="760" width="75" height="35"/>
+                                <rect key="frame" x="294" y="745" width="75" height="35"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <state key="normal" title="Button"/>
                                 <buttonConfiguration key="configuration" style="filled" title="Button"/>
                                 <connections>
-                                    <segue destination="DrW-Uc-1C8" kind="show" id="Ikk-am-NuG"/>
+                                    <segue destination="DrW-Uc-1C8" kind="show" id="Agp-Q2-ddf"/>
                                 </connections>
                             </button>
                         </subviews>
                         <viewLayoutGuide key="safeArea" id="0Lc-EE-qS7"/>
-                        <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                        <color key="backgroundColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                     </view>
                     <navigationItem key="navigationItem" id="bmD-Vp-JFD"/>
                     <connections>
@@ -158,16 +202,16 @@
             </objects>
             <point key="canvasLocation" x="4168.7022900763359" y="33.802816901408455"/>
         </scene>
-        <!--View Controller-->
+        <!--Galeria3 View Controller-->
         <scene sceneID="iET-38-thR">
             <objects>
-                <viewController id="DrW-Uc-1C8" sceneMemberID="viewController">
+                <viewController id="DrW-Uc-1C8" customClass="Galeria_3ViewController" customModule="App_beta" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="jtW-WL-uTs">
                         <rect key="frame" x="0.0" y="0.0" width="393" height="852"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="fondo" translatesAutoresizingMaskIntoConstraints="NO" id="puw-rP-rpH">
-                                <rect key="frame" x="0.0" y="0.0" width="393" height="852"/>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="deimos1" translatesAutoresizingMaskIntoConstraints="NO" id="fvE-Cg-Yo3">
+                                <rect key="frame" x="92" y="78" width="209" height="290"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                             </imageView>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="TTp-2a-LqL">
@@ -179,20 +223,50 @@
                                     <segue destination="u6O-Tn-Ac5" kind="show" id="ARf-lH-htu"/>
                                 </connections>
                             </button>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="8ue-uU-naQ">
+                                <rect key="frame" x="159" y="396" width="75" height="35"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <state key="normal" title="Button"/>
+                                <buttonConfiguration key="configuration" style="gray" title="Button"/>
+                                <connections>
+                                    <action selector="boton:" destination="DrW-Uc-1C8" eventType="touchUpInside" id="WLg-Nf-dIE"/>
+                                </connections>
+                            </button>
+                            <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" fixedFrame="YES" textAlignment="natural" translatesAutoresizingMaskIntoConstraints="NO" id="RWJ-0H-xYX">
+                                <rect key="frame" x="34" y="439" width="324" height="79"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <color key="backgroundColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <string key="text">El cientifico a travez de los años fue corrompido y su personalidad fue cambiando hasta convertice en un demonio, el demonio Deimos</string>
+                                <color key="textColor" red="0.66244482989999998" green="0.13485786550000001" blue="0.11863501630000001" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
+                            </textView>
+                            <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" fixedFrame="YES" textAlignment="center" translatesAutoresizingMaskIntoConstraints="NO" id="XU3-Z5-vec">
+                                <rect key="frame" x="76" y="561" width="240" height="170"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <color key="backgroundColor" systemColor="labelColor"/>
+                                <string key="text">Deimos en un inicio era considerado un dios, pero la humanidad se encargo de aplastar esa divinidad, al punto que corrompio al coentifico.</string>
+                                <color key="textColor" red="0.54770054768041243" green="0.11149868406437004" blue="0.09808584874352852" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="20"/>
+                                <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
+                            </textView>
                         </subviews>
                         <viewLayoutGuide key="safeArea" id="p3w-t8-zSu"/>
-                        <color key="backgroundColor" systemColor="opaqueSeparatorColor"/>
+                        <color key="backgroundColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                     </view>
                     <navigationItem key="navigationItem" id="xEs-CD-Xhv"/>
+                    <connections>
+                        <outlet property="imagen" destination="fvE-Cg-Yo3" id="Hg8-qu-94d"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="9Xm-NQ-zng" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="4899" y="44"/>
+            <point key="canvasLocation" x="4898.4732824427483" y="43.661971830985919"/>
         </scene>
-        <!--View Controller-->
+        <!--Galeria4 View Controller-->
         <scene sceneID="fMv-Sh-Ur1">
             <objects>
-                <viewController id="u6O-Tn-Ac5" sceneMemberID="viewController">
+                <viewController id="u6O-Tn-Ac5" customClass="Galeria_4ViewController" customModule="App_beta" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="cMN-8m-CPT">
                         <rect key="frame" x="0.0" y="0.0" width="393" height="852"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
@@ -201,15 +275,45 @@
                                 <rect key="frame" x="0.0" y="0.0" width="393" height="852"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                             </imageView>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="dios1" translatesAutoresizingMaskIntoConstraints="NO" id="mdk-u6-H0R">
+                                <rect key="frame" x="38" y="109" width="317" height="298"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            </imageView>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="dios" translatesAutoresizingMaskIntoConstraints="NO" id="Nzk-Fb-b9Y">
+                                <rect key="frame" x="76" y="493" width="240" height="280"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            </imageView>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="yHA-IN-3so">
+                                <rect key="frame" x="159" y="783" width="75" height="35"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <state key="normal" title="Button"/>
+                                <buttonConfiguration key="configuration" style="filled" title="Button"/>
+                                <connections>
+                                    <action selector="boton2:" destination="u6O-Tn-Ac5" eventType="touchUpInside" id="bJh-rw-gkn"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="7p0-H7-wZF">
+                                <rect key="frame" x="149" y="415" width="75" height="35"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <state key="normal" title="Button"/>
+                                <buttonConfiguration key="configuration" style="filled" title="Button"/>
+                                <connections>
+                                    <action selector="boton1:" destination="u6O-Tn-Ac5" eventType="touchUpInside" id="aQQ-vl-z0P"/>
+                                </connections>
+                            </button>
                         </subviews>
                         <viewLayoutGuide key="safeArea" id="z1l-NM-ae7"/>
                         <color key="backgroundColor" systemColor="systemBackgroundColor"/>
                     </view>
                     <navigationItem key="navigationItem" id="3Zf-Tt-r2f"/>
+                    <connections>
+                        <outlet property="imagen1" destination="mdk-u6-H0R" id="etg-Hu-CQK"/>
+                        <outlet property="imagen2" destination="Nzk-Fb-b9Y" id="H4P-r8-NLj"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="sYD-to-Zwv" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="5662" y="49"/>
+            <point key="canvasLocation" x="5661.8320610687024" y="48.591549295774648"/>
         </scene>
         <!--Navigation Controller-->
         <scene sceneID="JeO-u1-uk4">
@@ -232,15 +336,19 @@
     </scenes>
     <color key="tintColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
     <resources>
+        <image name="cientifico3" width="720" height="466"/>
+        <image name="deimos1" width="723" height="1024"/>
         <image name="deimos_1" width="1080" height="1080"/>
         <image name="demian1-removebg-preview" width="504" height="495"/>
+        <image name="dios" width="236" height="314"/>
+        <image name="dios1" width="236" height="314"/>
+        <image name="dios5" width="236" height="334"/>
         <image name="fondo" width="1080" height="1920"/>
         <image name="mago" width="1382" height="693"/>
+        <image name="portal" width="1300" height="635"/>
+        <image name="relicario_fondo" width="550" height="453"/>
         <systemColor name="labelColor">
             <color red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
-        </systemColor>
-        <systemColor name="opaqueSeparatorColor">
-            <color red="0.77647058823529413" green="0.77647058823529413" blue="0.78431372549019607" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
         </systemColor>
         <systemColor name="systemBackgroundColor">
             <color white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>

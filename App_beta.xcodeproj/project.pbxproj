@@ -17,6 +17,8 @@
 		3D3EA59929C22C0100C88A76 /* App_betaUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3D3EA59829C22C0100C88A76 /* App_betaUITests.swift */; };
 		3D3EA59B29C22C0100C88A76 /* App_betaUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3D3EA59A29C22C0100C88A76 /* App_betaUITestsLaunchTests.swift */; };
 		BC242C7D29CA600D00F8E8D9 /* porViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BC242C7C29CA600D00F8E8D9 /* porViewController.swift */; };
+		BC944CC829CB936E00BB78AD /* Galeria_3ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BC944CC729CB936E00BB78AD /* Galeria_3ViewController.swift */; };
+		BC944CCA29CB971000BB78AD /* Galeria_4ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BC944CC929CB971000BB78AD /* Galeria_4ViewController.swift */; };
 		F02CEB0029C3B11F00CFFE41 /* Galeria_2_ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F02CEAFF29C3B11F00CFFE41 /* Galeria_2_ViewController.swift */; };
 /* End PBXBuildFile section */
 
@@ -52,6 +54,8 @@
 		3D3EA59829C22C0100C88A76 /* App_betaUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = App_betaUITests.swift; sourceTree = "<group>"; };
 		3D3EA59A29C22C0100C88A76 /* App_betaUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = App_betaUITestsLaunchTests.swift; sourceTree = "<group>"; };
 		BC242C7C29CA600D00F8E8D9 /* porViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = porViewController.swift; sourceTree = "<group>"; };
+		BC944CC729CB936E00BB78AD /* Galeria_3ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Galeria_3ViewController.swift; sourceTree = "<group>"; };
+		BC944CC929CB971000BB78AD /* Galeria_4ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Galeria_4ViewController.swift; sourceTree = "<group>"; };
 		F02CEAFF29C3B11F00CFFE41 /* Galeria_2_ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Galeria_2_ViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -107,6 +111,8 @@
 				3D3EA57929C22BFD00C88A76 /* SceneDelegate.swift */,
 				3D3EA57B29C22BFD00C88A76 /* ViewController.swift */,
 				3D3EA57D29C22BFD00C88A76 /* Main.storyboard */,
+				BC944CC929CB971000BB78AD /* Galeria_4ViewController.swift */,
+				BC944CC729CB936E00BB78AD /* Galeria_3ViewController.swift */,
 				BC242C7C29CA600D00F8E8D9 /* porViewController.swift */,
 				F02CEAFF29C3B11F00CFFE41 /* Galeria_2_ViewController.swift */,
 				3D3EA58029C22C0000C88A76 /* Assets.xcassets */,
@@ -266,8 +272,10 @@
 			files = (
 				3D3EA57C29C22BFD00C88A76 /* ViewController.swift in Sources */,
 				F02CEB0029C3B11F00CFFE41 /* Galeria_2_ViewController.swift in Sources */,
+				BC944CCA29CB971000BB78AD /* Galeria_4ViewController.swift in Sources */,
 				3D3EA57829C22BFD00C88A76 /* AppDelegate.swift in Sources */,
 				BC242C7D29CA600D00F8E8D9 /* porViewController.swift in Sources */,
+				BC944CC829CB936E00BB78AD /* Galeria_3ViewController.swift in Sources */,
 				3D3EA57A29C22BFD00C88A76 /* SceneDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

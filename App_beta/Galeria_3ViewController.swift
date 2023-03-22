@@ -1,19 +1,17 @@
 //
-//  Galeria_2_ViewController.swift
+//  Galeria_3ViewController.swift
 //  App_beta
 //
-//  Created by CEDAM20 on 16/03/23.
+//  Created by CEDAM01 on 22/03/23.
 //
 
 import UIKit
 
-class Galeria_2_ViewController: UIViewController {
+class Galeria_3ViewController: UIViewController {
 
     
-    @IBOutlet weak var imagen1: UIImageView!
-    
-    
-    let listaImagenes = ["demonio","mago","relicario"]
+    @IBOutlet weak var imagen: UIImageView!
+    let listaImagenes = ["deimos1","deimos2","deimos3"]
     var elementosIndice = 0
     
     
@@ -22,9 +20,11 @@ class Galeria_2_ViewController: UIViewController {
         actualizarElementos()
         super.viewDidLoad()
 
+  
     }
     
-    @IBAction func siguietne(_ sender: Any) {
+
+    @IBAction func boton(_ sender: Any) {
         elementosIndice+=1
         
         if(elementosIndice >= listaImagenes.count){
@@ -34,16 +34,12 @@ class Galeria_2_ViewController: UIViewController {
         }
         actualizarElementos()
     }
-    
     func actualizarElementos(){
         
         let numeroElemento = listaImagenes[elementosIndice]
         let laImagern = UIImage(named: numeroElemento)
         
-        imagen1.image = laImagern
+        imagen.image = laImagern
     }
-    @IBAction func regresar (unwindsegue: UIStoryboard ){
-        
-    }
-
+    
 }
